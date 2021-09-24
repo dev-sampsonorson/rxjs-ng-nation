@@ -10,3 +10,6 @@ The weback config automatically displays the output from our active code file (a
 
 `npm run build`
 
+### Resource 
+
+🔥 [Angular Nation](https://www.angularnation.net/)
