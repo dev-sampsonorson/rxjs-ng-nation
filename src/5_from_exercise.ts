@@ -30,4 +30,7 @@ function processData(source: Observable<Fruit>) {
     })
 }
 
-processData(from(fruits));
+// processData(from(fruits));
+
+const fruits$ = from(fruits);
+processData(fruits$);
