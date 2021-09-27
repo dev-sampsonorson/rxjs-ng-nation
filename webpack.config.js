@@ -75,6 +75,13 @@ module.exports = (env, argv) => {
                 hash: false,
                 inject: true
             }),
+            new HtmlWebpackPlugin({
+                title: 'RxJS Angular Nation',
+                template: './src/30_widget.html',
+                filename: '30_widget.html',
+                hash: false,
+                inject: true
+            }),
             new WriteFilePlugin({ writeToDisk: true }),
             {
                 apply(compiler) {

@@ -18,9 +18,9 @@ let observable2$ = Observable.create((observer: any) => {
     }, 3000);
 });
 
-let subscription1 = observable1$.subscribe(
+/* let subscription1 = observable1$.subscribe(
     (value: any) => console.log(1, ' => ', value)
-);
+); */
 
 let subscription2 = observable2$.subscribe(
     (value: any) => console.log(2, ' => ', value)
@@ -32,6 +32,9 @@ setTimeout(() => {
      * though it subscribed late
      */
     let subscription3 = observable2$.subscribe(
-        (value: any) => console.log(3, ' => ', value)
+        (value: any) => {
+            // subscription2.unsubscribe();
+            console.log(3, ' => ', value);
+        }
     );
 }, 9000);

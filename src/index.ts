@@ -18,6 +18,20 @@
 // import './19_scan.ts';
 // import './20_scan_exercise.ts';
 // import './21_switchMap.ts';
-import './23_concatMap.ts';
-
-
+// import './23_concatMap.ts';
+// import './24_promises.ts';
+// import './24_observable.ts';
+// import './26_multiple_values.ts';
+// import './27_observable_instance.ts';
+// import './28_operator.ts';
+// import './29_custom_operator.ts';
+// import './30_widget.ts';
+// import './30_widget_cory.ts';
+// import './31_subject.ts';
+// import './32_behavior_subject.ts';
+// import './33_shareReplay.ts';
+// import './34_share.ts';
+// import './35_async_subject.ts';
+// import './36_behavior_subject.ts';
+// import './37_replay_subject.ts';
+import './38_subject.ts';
