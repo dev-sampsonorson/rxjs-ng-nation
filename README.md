@@ -8,7 +8,11 @@
 
 The weback config automatically displays the output from our active code file (as specified in `index.ts`) after each build or rebuild.
 
-`npm run build`
+`npm run watch`
+
+You can also run the command below after the project is built with: `npm run build`.
+
+`node ./dist/main.bundle.js`
 
 ### Resource 
 

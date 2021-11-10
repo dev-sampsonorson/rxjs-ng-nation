@@ -1,4 +1,7 @@
-// import './1_cold_observables.ts';
+// import './0_cold_observables.ts';
+// import './1_hot_observables.ts';
+// import './2_unicast_observables.ts';
+// import './3_multicast_observables.ts';
 // import './4_from.ts';
 // import './5_from_exercise.ts';
 // import './6_map.ts';
@@ -34,4 +37,13 @@
 // import './35_async_subject.ts';
 // import './36_behavior_subject.ts';
 // import './37_replay_subject.ts';
-import './38_subject.ts';
+// import './38_subject.ts';
+// import './39_concat.ts';
+// import './40_zip.ts';
+// import './41_concat_v2.ts';
+// import './42_promise_void.ts';
+// import './43_mergeMap.ts';
+// import './44_share_v2.ts';
+// import './45_shareReplay_v2.ts';
+// import './46_bufferCount.ts';
+import './47_exhaustMap.ts';
